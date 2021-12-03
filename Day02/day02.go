@@ -9,7 +9,6 @@ import (
 func Puzzle1(inputs []string) {
 	horizontalPosition := 0
 	depth := 0
-
 	for _, input := range inputs {
 		splittedInput := strings.Split(input, " ")
 		currentCommand := splittedInput[0]
@@ -31,7 +30,6 @@ func Puzzle2(inputs []string) {
 	horizontalPosition := 0
 	depth := 0
 	aim := 0
-
 	for _, input := range inputs {
 		splittedInput := strings.Split(input, " ")
 		currentCommand := splittedInput[0]
