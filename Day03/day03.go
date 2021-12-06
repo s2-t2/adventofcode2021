@@ -7,7 +7,14 @@ import (
 )
 
 func Puzzle1(inputs []string) {
-	// Refctor the whole thing ...
+	// Find the most common bit for each bits
+	for _, v := range inputs {
+		individualChars := strings.Split(v, "")
+		// Get most common bit for individual chars, only first bit, then, only second bit etc....
+		fmt.Println(individualChars)
+	}
+
+	// Refactor the whole thing ...
 	var firstBits []string
 	var secondBits []string
 	var thirdBits []string

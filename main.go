@@ -5,26 +5,34 @@ import (
 	"log"
 	"os"
 
-	day01 "github.com/sujata5538/adventofcode2021/Day01"
-	day02 "github.com/sujata5538/adventofcode2021/Day02"
-	day03 "github.com/sujata5538/adventofcode2021/Day03"
+	day06 "github.com/sujata5538/adventofcode2021/Day06"
 )
 
 func main() {
 	// Day 1:
-	dayOneInput := ReadFromFile("data/day01.txt")
-	day01.Puzzle1(dayOneInput)
-	day01.Puzzle2(dayOneInput)
+	// dayOneInput := ReadFromFile("data/day01.txt")
+	// day01.Puzzle1(dayOneInput)
+	// day01.Puzzle2(dayOneInput)
 
-	// // Day 2:
-	dayTwoInput := ReadFromFile("data/day02.txt")
-	day02.Puzzle1(dayTwoInput)
-	day02.Puzzle2(dayTwoInput)
+	// // // Day 2:
+	// dayTwoInput := ReadFromFile("data/day02.txt")
+	// day02.Puzzle1(dayTwoInput)
+	// day02.Puzzle2(dayTwoInput)
+
+	// // Day 3:
+	// dayThreeInput := ReadFromFile("data/day03.txt")
+	// day03.Puzzle1(dayThreeInput)
+	// day03.Puzzle2(dayThreeInput)
 
 	// Day 3:
-	dayThreeInput := ReadFromFile("data/day03.txt")
-	day03.Puzzle1(dayThreeInput)
-	day03.Puzzle2(dayThreeInput)
+	// dayFourInput := ReadFromFile("data/day04.txt")
+	// day04.Puzzle1(dayFourInput)
+	// day04.Puzzle2(dayFourInput)
+
+	// Day 6:
+	daySixInput := ReadFromFile("data/day06.txt")
+	// day06.Puzzle1(daySixInput)
+	day06.Puzzle2(daySixInput)
 }
 
 func ReadFromFile(filePath string) []string {
